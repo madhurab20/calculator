@@ -1,0 +1,50 @@
+.container {
+  width: 90%;
+  max-width: 400px;
+  background-color: $color-darklblue;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.container__display {
+  background-color: $color-grey;
+  height: 100px;
+  width: 500px;
+  text-align: right;
+  padding: 20px;
+  font-size: 30px;
+  position: relative;
+}
+
+.container__display__display-1 {
+  background-color: $color-grey;
+  font-size: 25px;
+  height: 25px;
+  overflow: hidden;
+  color: $color-black;
+  position: absolute;
+  right: 10;
+  font-weight: 500;
+}
+
+.container__display__display-2 {
+  background-color: $color-grey;
+  font-size: 25px;
+  height: 25px;
+  overflow: hidden;
+  color: $color-black;
+  position: absolute;
+  right: 10;
+  font-weight: 700;
+}
+
+.container__display__temp-result {
+  position: absolute;
+  padding-right: 90%;
+  background-color: $color-grey;
+  bottom: 0;
+  left: 10;
+  font-size: 20px;
+  opacity: 1;
+  font-weight: 500;
+}

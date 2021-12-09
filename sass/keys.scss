@@ -1,0 +1,60 @@
+.all_buttons {
+  color: $color-white;
+  display: grid;
+  grid-template: repeat(4, 4fr) / repeat(4, 4fr);
+}
+
+.button {
+  border: 0.5px solid $color-black;
+  display: inline-block;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.1s all;
+  // box-shadow: white;
+}
+.button:hover {
+  background-color: $color-blue;
+}
+.button:active {
+  transform: scale(0.97);
+  box-shadow: $color-white;
+}
+.btn-0 {
+  grid-column: 1/3;
+}
+.equal {
+  background-color: $color-green;
+}
+.all-clear {
+  background-color: $color-red;
+}
+
+// .button {
+//   border: 0.5px solid $color-black;
+//   display: inline-block;
+//   height: 90px;
+//   width: 100%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: 30px;
+//   font-weight: 600;
+//   cursor: pointer;
+// }
+// .button:hover {
+//   background-color: $color-black;
+// }
+
+// .btn-0 {
+//   grid-column: 1/3;
+// }
+
+// .buttons__button-equal {
+//   background-color: $color-green;
+// }

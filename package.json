@@ -1,0 +1,14 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "basic calculator",
+  "main": "cacl.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css"
+  },
+  "author": "madhura",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.0"
+  }
+}
